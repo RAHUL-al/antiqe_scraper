@@ -6,7 +6,7 @@ import re
 
 class AntiqSpider(scrapy.Spider):
     name = "antiq"
-    start_urls = ["https://www.1stdibs.com/dealers/alexanders-antiques/shop/"]
+    start_urls = [""]
     image_list = []
     handle_httpstatus_list = [301]
 
